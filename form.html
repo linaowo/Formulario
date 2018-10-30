@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Solicitud de Empleo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="form_js.js"></script>
+  </head>
+
+  <body>
+<legend><center>Solicitud</center><br /></legend>
+  
+  
+  <form id="contacto-frm" name="contacto_frm" action="#" method="post">
+    <fieldset> Solicitud de Empleo </br>
+    <table cellpadding=13  border="1" id="table1" style="margin: 0 auto;">
+    </br>
+      <td>Puesto que Solicita :    <input name="solicitud" id="puesto" type="text" value=""></br></br>
+    <span>Sea tan amable de llenar esta solicitud en forma manuscrita</span>
+  </br></br>
+    <span>NOTA: Toda informacion aqui proporcionada sera tratada confidencialmente</span> </td>
+    <td>Fecha: </br><input type="date" name="fecha" step="1" > </br></br> 
+      Fecha de Contratacion: <input type="date" name="fechaC" step="1"></td>
+    <td>Sueldo Mensual deseado:  <input name="sueldo1" id="sueldoD" type="text" value=""> </br></br> 
+      Sueldo Mensual aprobado:  <input name="sueldo2" id="sueldoA" type="text" value=""></td>
+    </table>
+</fieldset>
+
+  <fieldset> Datos Personales </br></br>
+  <table cellpadding=15 border="1" id="table2" style="margin: 0 auto;">
+    <tr>
+      <td>Apellido Paterno: <input name="apellidop" id="apellido_P" type="text" value=""></td>
+      <td>Apellido Materno:  <input name="apellidom" id="apellido_M" type="text" value=""></td>
+      <td>Nombre(s): <input name="nombre1" id="nombre" type="text" value=""></td>
+      
+    </tr>
+    <tr>
+      <td>Domicilio: <input name="domicilio1" id="domicilio" type="text" value=""></td>
+      <td>Colonia: <input name="colonia1" id="colonia" type="text" value=""></td>
+      <td>Codigo Postal: <input name="codigo1" id="codigo" type="text" value="" maxlength="7" size="7"></td>
+      
+    </tr>
+    <tr>
+      <td>Ciudad, Estado: </br><input name="ciudad1" id="ciudad" type="text" value=""></td>
+      <td>Lugar de Nacimiento: </br><input name="nacimiento1" id="nacimiento" type="text"></td>
+      <td>Fecha Nacimiento: </br><input type="date" name="cumpleanios" step="1" min="1900-01-01" max="2000-12-31" value="1990-01-01">
+      
+    </tr>
+    <tr>
+      <td>Nacionalidad: <input name="nacionalidad1" id="nacionalidad" type="text" value=""></td>
+      <td>Estatura: <input name="estatura1" id="estatura" type="text" value="" size="3" maxlength="3">
+        Peso: <input name="peso1" id="peso" type="text" value="" size="3" maxlength="3"></td>
+        <td>Edad: <input name="edad1" id="edad" type="text" maxlength="3" value="" size="3"> Años</td>
+        
+    </tr>
+    <tr>
+      <td>Telefono: <input name="telefono1" id="telefono" type="text" value="" maxlength="8" size="8"></td>
+      <td>Correo :<input type="text" name="correo1" id="correo" value="" maxlength="16" size="8" placeholder="email@example.com"></td>
+      <td>Sexo: </br> </br><input type="radio" name="sexo" id="F" value=""> Femenino  
+      <input type="radio" name="sexo" id="M" value=""> Masculino </td>
+      
+
+
+    </tr>
+    <tr>
+      <td>Vive con: </br> </br><input type="radio" name="familia1" id="padres" value="">Sus padres 
+                         <input type="radio" name="familia1" id="familia" value="">Su familia
+                         </br></br><input type="radio" name="familia1" id="parientes" value="">Parientes
+                         <input type="radio" name="familia1" id="solo" value="">Solo</td>
+    
+      <td>Persona que dependen de usted: </br></br><input type="checkbox" name="hijos1" id="hijos" value="">Hijos 
+                                              <input type="checkbox" name="conyuge1" id="conyuge" value="">Conyuge
+                                              <input type="checkbox" name="padres1" id="padres" value="">Padres
+                                              <input type="checkbox" name="otros1" id="otros" value="">Otros</td>
+
+      <td>Estado Civil: </br> </br><input type="radio" name="civil1" id="soltero" value="">Soltero 
+                         <input type="radio" name="civil1" id="casado" value="">Casado
+                         <input type="radio" name="civil1" id="otro" value="">Otro</td>                                        
+    </tr></table> 
+  </fieldset>
+
+    <fieldset>Documentos </br> </br>
+      <table cellpadding=15 border="1" id="table3" style="margin: 0 auto;">
+        <tr>
+          <td>Clave unica de Registro de Poblacion: </br><input type="text" name="clave1" id="clave" value=""></td>
+          <td>Reg. Fed ded Contribuyentes:</br><input type="text" name="contribuyentes1" id="contribuyentes" value=""></td>
+          <td>Numero de Seguridad Social: </br><input type="text" name="social1" id="social" value=""></td>
+        </tr>
+        <tr>
+          <td>Tiene licencia de manejar:</br> </br><input type="radio" name="licencia" id="licencia_s">Si
+                                            <input type="radio" name="licencia" id="licencia_n">No</td>
+          <td>Clase y numero de Licencia: 
+          </br>
+          <select name="licencia">
+          <option selected>A - 1</option>
+          <option>A - 2</option>
+          <option>A - 3</option>
+          <option>A - 4</option>
+          <option>A - 5</option>
+          <option> B </option>
+          <option> C </option>
+          <option> D </option>
+          <option> E </option>
+          <option> F </option>
+          
+          </select></td> 
+        </tr>
+      </tr></table>
+      </fieldset>
+
+        <fieldset >Estado de Salud y Habitos Personales </br> </br>
+          <table cellpadding=15 border="1" id="table4" style="margin: 0 auto;">
+            <tr>
+          <td>Estado de Salud: </br> </br><input type="radio" name="salud" id="salud_b">Bueno
+                             <input type="radio" name="salud" id="salud_r">Regular
+                             <input type="radio" name="salud" id="salud_m">Malo</td>
+          <td>¿Padece de alguna enfermedad Cronica? </br></br><input type="radio" name="enfermedad" id="enfermedad_n">No
+                             <input type="radio" name="enfermedad" id="enfermedad_s">Si (Explique)</td></tr>
+
+          <td>Practica Ud Algun Deporte</br> </br> <input type="checkbox" name="futbol" value="">Futbol
+                                                   <input type="checkbox" name="basket" value="">Basketball
+                                                   <input type="checkbox" name="ciclismo" value="">Ciclismo
+                                                   <input type="checkbox" name="voleibol" value="">Voleibol
+                                                   <input type="checkbox" name="caminata" value="">Caminata</td>
+
+          <td>¿Cual es su pasatiempo Favorito? </br> </br> <input type="checkbox" name="leer" value="">Leer
+                                                   <input type="checkbox" name="dormir" value="">Dormir
+                                                   <input type="checkbox" name="television" value="">Ver Television
+                                                   <input type="checkbox" name="viajar" value="">Viajar
+                                                   <input type="checkbox" name="dibujar" value="">Dibujar</td>
+
+        </fieldset>
+        </table>    
+       <div>
+        <tr align="center" ></br>
+      <td colspan="2" ><input name="button_enviar" type="button" value="Enviar" class="cambio" id="enviar" ></td>
+      <td colspan="2" ><input name="button_limpiar" type="button" value="Resetear" class="cambio" id="limpiar"></td>
+    </tr>
+      </div>  
+        
+      
+      </fieldset>
+   
+
+    
+  </form>
+  
+
+  
+
+  </body>
+
+</html>
