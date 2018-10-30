@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="validation.js"></script>
+</head>
+<body>
+    <form class="formulary" method="POST" onSubmit="return validation()" action="/validation">
+        <section class="section__formulary">
+            <div class="first__section-division"></div>
+            <div class="first__section-division">
+                <div class="first__section-subdivision">
+                    <div class="first__section-horizontal_section">
+                        <div class="first__section-content-input">
+                            <label for="date">Fecha:</label>
+                            <input id="date" name="date" type="text" placeholder="12/12/1993">
+                        </div>
+                        <div class="first__section-content-input">
+                            <label for="month-salary">Sueldo mensual deseado:</label>
+                            <input id="month-salary" name="month-salary" type="text" placeholder="$2.000.000">
+                        </div>
+                    </div>
+                    <div class="first__section-horizontal_section">
+                        <div class="first__section-content-input">
+                            <label for="approbe-salary">Sueldo mensual aprobado:</label>
+                            <input id="approbe-salary" name="approbe-salary" type="text" placeholder="$2.000.000">
+                        </div>
+                        <div class="first__section-content-input">
+                            <label for="date-contratation">Fecha de contratacion:</label>
+                            <input id="date-contratation" name="date-contratation" type="text" placeholder="12/12/1993">
+                        </div>
+                    </div>
+                </div>
+                <div class="first__section-subdivision"></div>
+            </div>
+        </section>
+
+        <section class="section__formulary">
+        </section>
+
+        <section class="section__formulary">
+        </section>
+
+        <section class="section__formulary">
+        </section>
+
+        <button type="submit">enviar</button>
+    </form>
+</body>
+</html>
