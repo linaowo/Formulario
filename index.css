@@ -41,6 +41,7 @@ legend {
     height:  300px;
 }
 
+
 .first__section-horizontal_section {
     box-sizing: border-box;
     width: 100%;
@@ -69,10 +70,35 @@ legend {
     border: 1px solid #333;
 }
 
+.section__mini-bloque {
+    height: 50%;
+    width: 100%;
+    border: 1px solid #333;
+}
 .section__doble {
     height: 50%;
     width: 100%;
     border: 1px solid #333;
+}
+.section__box-mini {
+    height: 140%;
+    width:  29.6%;
+    border: 1px solid #333;
+    float: right;
+}
+
+.section__mini {
+    height: 75%;
+    width: 100%;
+    border: 1px solid #333;
+    float: bottom;
+}
+
+.section__mini-m {
+    height: 24%;
+    width: 100%;
+    border: 1px solid #333;
+    float: bottom;
 }
 
 .first__section-horizontal_section:last-child
@@ -101,7 +127,10 @@ legend {
     color: #ec3434;
     font-weight: 600;
 }
-
+.section__mini-bloque input {
+    box-sizing: border-box;
+    height: 12%;
+}
 .first__section-division p {
     text-align: center;
 
@@ -194,7 +223,7 @@ box-sizing: border-box;
 
 
 
-.first__section-subvision-doble #licencia_s, #licencia_n, #salud_b, #salud_r, #salud_m, #enfermedad_n, #enfermedad_s, #padres, #familia, #parientes, #solo  {
+.first__section-subvision-doble #licencia_s, #licencia_n, #salud_b, #salud_r, #salud_m, #enfermedad_n, #enfermedad_s, #padres, #familia, #parientes, #solo, #soltero, #casado, #otro, #F, #M  {
 
     width: 5%;
     text-align: center;
