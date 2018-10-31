@@ -19,7 +19,11 @@ body {
 .first__section-division {
     width: 50%;
     height:  300px;
-    display: flex;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #333;
+
+
 }
 
 .first__section-subdivision:first-child {
@@ -37,6 +41,7 @@ body {
     box-sizing: border-box;
     width: 100%;
     height: 50%;
+    border: 1px solid #333;
 }
 
 .first__section-content-input {
@@ -64,4 +69,41 @@ body {
     text-align: center;
     color: #ec3434;
     font-weight: 600;
+}
+
+.first__section-division input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: .5em;
+    text-align: center;
+    color: #ec3434;
+    font-weight: 600;
+}
+
+.first__section-division p {
+    text-align: center;
+    padding: 5em;
+    box-sizing: border-box;
+}
+
+.first__section-content-input-mini {
+    padding: .5em;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30%;
+    width: 100%;
+    border-bottom: 1px solid #333;
+}
+
+.first__section-horizontal_section-m {
+    box-sizing: border-box;
+    width: 100%;
+    height: 30%;
+    border: 1px solid #333;
+}
+
+.first__section-subvision-doble {
+    box-sizing: border-box;
+    width: 50%;
+    height:  30px;
 }
