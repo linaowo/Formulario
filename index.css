@@ -107,3 +107,11 @@ body {
     width: 50%;
     height:  30px;
 }
+
+.approbe-salary-incorrect #approbe-salary {
+    border: 1px solid red;
+}
+
+.date-incorrect #date {
+    border: 1px solid red;
+}
