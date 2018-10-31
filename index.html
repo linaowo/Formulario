@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Formulario</title>
     <link rel="stylesheet" href="index.css">
     <script src="validation.js"></script>
 </head>
 <body>
+        <legend><center>Solicitud de Empleo</center></legend>
     <form class="formulary" method="POST" onSubmit="return validation()" action="/validation">
         <section class="section__formulary">
 
@@ -48,7 +49,81 @@
 
         <section class="section__formulary">
             <div class="first__section-division">
+                <div class="first__section-content-input-lineal">
+                    <div class="first__section-name">
+                        <div class="section__name">
+                            <label for="apellido_p">Apellido Paterno</label>
+                            <input type="text" id="apellido_p" name="apellido_p">
+                        </div>
+                        <div class="section__name">
+                            <label for="apellido_m">Apellido Materno</label>
+                            <input type="text" id="apellido_m" name="apellido_m">
+                        </div>
+                        <div class="section__name">
+                            <label for="nombre">Nombre(s)</label>
+                            <input type="text" id="nombre" name="nombre">
+                        </div>
+                        <div class="first__section_edad">
+                            <label for="edad">Edad</label>
+                            <input type="text" name="edad" id="edad">
+                        </div>
+                    </div>
+                </div>
+                <div class="first__section_box">
+                    <div class="section__second">
+                        <div class="section__doble">
+                            <div class="section__triple">
+                                <label for="domicilio">Domicilio</label>
+                                <input type="text" id="domicilio" name="domicilio">
 
+                            </div>
+                            <div class="section__triple">
+                                <label for="colonia">Colonia</label>
+                                <input type="text" id="colonia" name="colonia">
+
+                            </div>
+                            <div class="section__triple">
+                                <label for="codigo-p">Codigo Postal</label>
+                                <input type="text" name="codigo-p" id="codigo-p">
+
+                            </div>
+                                <div class="first__section-subvision-dobles">
+                                    <label for="ciudad">Ciudad. Estado</label>
+                                    <input type="text" name="ciudad" id="ciudad">
+
+                                </div>
+                                <div class="first__section-subvision-dobles">
+                                    <label for="nacimiento">Lugar de Nacimiento</label>
+                                    <input type="text" name="nacimiento" id="nacimiento">
+
+                                </div>
+
+                        </div>
+
+                    </div>
+                    <div class="section__second">
+                        <div class="section__doble">
+                            <label for="vive">Vive con</label>
+                              <div>
+                                    <input type="radio" name="familia1" id="padres" value="">Sus padres
+                                    <input type="radio" name="familia1" id="familia" value="">Su familia
+                                    <input type="radio" name="familia1" id="parientes" value="">Parientes
+                                    <input type="radio" name="familia1" id="solo" value="">Solo
+                            </div>
+                        </div>
+                        <div class="section__doble">
+                            <label for="dependen">Personas que dependen de usted</label>
+                            <div>
+                                    <input type="checkbox" name="hijos1" id="check" value="">Hijos
+                                    <input type="checkbox" name="conyuge1" id="check" value="">Conyuge
+                                    <input type="checkbox" name="padres1" id="check" value="">Padres
+                                    <input type="checkbox" name="otros1" id="check" value="">Otros
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -59,21 +134,97 @@
                     <input id="clave-unica" name="clave-unica" type="text" placeholder="******">
 
                 </div>
-                <div class="first__section-horizontal_section-m"></div>
-                <div class="first__section-subvision-doble">
+                <div class="first__section-horizontal_section-m">
+                    <div class="first__section-subvision-doble">
+                        <label for="contribuyentes">Reg. Fed. de Contribuyentes</label>
+                        <input id="contribuyentes" name="contribuyentes" type="text" placeholder="Registro Federal de Contribuyentes">
+
+                    </div>
+                    <div class="first__section-subvision-doble">
+                        <label for="seguridad-social">Numero de Seguridad Social</label>
+                        <input type="text" name="seguridad-social" id="seguridad-social" placeholder="0000000000">
+                    </div>
 
                 </div>
+                <div class="first__section-horizontal_section-m">
+                    <div class="first__section-subvision-doble">
+                        <label for="licencia">Tiene Licencia de manejar</label>
+                            <div class="radio">
+                                    <input type="radio" name="licencia" id="licencia_s">Si
+                                    <input type="radio" name="licencia" id="licencia_n">No
+                            </div>
+                    </div>
+                    <div class="first__section-subvision-doble">
+                        <label for="clase-licencia">Clase y Numero de Licencia</label>
+                        <select name="licencia">
+                            <div class="combo">
+                                <option selected>A - 1</option>
+                                <option>A - 2</option>
+                                <option>A - 3</option>
+                                <option>A - 4</option>
+                                <option>A - 5</option>
+                                <option> B </option>
+                                <option> C </option>
+                                <option> D </option>
+                                <option> E </option>
+                                <option> F </option>
 
+                                </select>
+                            </div>
+                    </div>
+
+                </div>
             </div>
         </section>
 
         <section class="section__formulary">
             <div class="first__section-division">
+                <div class="first__section-horizontal-m">
+                    <div class="first__section-subvision-doble">
+                        <label for="estado-salud">¿Como considera su estado de salud?</label>
+                            <div class="radio">
+                                    <input type="radio" name="salud" id="salud_b">Bueno
+                                    <input type="radio" name="salud" id="salud_r">Regular
+                                    <input type="radio" name="salud" id="salud_m">Malo
+                             </div>
+                    </div>
+                    <div class="first__section-subvision-doble">
+                        <label for="enfermedad">¿Padece Alguna enfermedad Cronica?</label>
+                                <div class="radio">
+                                    <input type="radio" name="enfermedad" id="enfermedad_n">No
+                                    <input type="radio" name="enfermedad" id="enfermedad_s">Si (Explique)
+                              </div>
+                    </div>
+                </div>
+                <div class="first__section_horizontal-m">
+                    <div class="first__section-subvision-doble">
+                         <label for="deporte">¿Practica Ud. Algun Deporte?</label>
+                             <div class="check">
+                                <input type="checkbox" name="futbol" id="check">Futbol
+                                <input type="checkbox" name="basket" id="check">Basketball
+                                <input type="checkbox" name="ciclismo" id="check">Ciclismo
+                                <input type="checkbox" name="voleibol" id="check">Voleibol
+                                <input type="checkbox" name="caminata" id="check">Caminata
+                             </div>
+                    </div>
+                    <div class="first__section-subvision-doble">
+                        <label for="hobbie">¿Cual es su pasatiempo favorito?</label>
+                            <div class="check">
+                                <input type="checkbox" name="leer" id="check">Leer
+                                <input type="checkbox" name="dormir" id="check">Dormir
+                                <input type="checkbox" name="television" id="check">Ver Television
+                                <input type="checkbox" name="viajar" id="check">Viajar
+                                <input type="checkbox" name="dibujar" id="check">Dibujar
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
         </section>
 
-        <button type="submit">enviar</button>
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetear</button>
     </form>
 </body>
 </html>

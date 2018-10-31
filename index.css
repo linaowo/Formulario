@@ -2,6 +2,13 @@ body {
     border: 0;
     margin: 0;
     padding: 0;
+    font-family: 'Tw Cen MT', cursive;
+}
+legend {
+	font-size: 40px;
+    font-family: 'Tw Cen MT', cursive;
+    padding: 12px 20px;
+
 }
 
 .formulary {
@@ -17,13 +24,10 @@ body {
 }
 
 .first__section-division {
-    width: 50%;
+    width: 100%;
     height:  300px;
     box-sizing: border-box;
-    box-sizing: border-box;
     border: 1px solid #333;
-
-
 }
 
 .first__section-subdivision:first-child {
@@ -51,6 +55,24 @@ body {
     height: 50%;
     width: 100%;
     border-bottom: 1px solid #333;
+}
+
+.first__section_box {
+    height: 50%;
+    width: 70%
+    border: 1px solid #333;
+}
+
+.section__second {
+    height: 69%;
+    width: 70%;
+    border: 1px solid #333;
+}
+
+.section__doble {
+    height: 50%;
+    width: 100%;
+    border: 1px solid #333;
 }
 
 .first__section-horizontal_section:last-child
@@ -82,12 +104,50 @@ body {
 
 .first__section-division p {
     text-align: center;
-    padding: 5em;
+
     box-sizing: border-box;
+}
+
+.first__section-name {
+width: 100%;
+height: 100%;
+border:  1px solid #333;
+box-sizing: border-box;
+}
+.section__name {
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    float: left;
+}
+.first__section_edad {
+    width: 10%;
+    height: 100%;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    float: right;
+}
+
+.section__triple {
+    width: 33.3%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    float: left;
 }
 
 .first__section-content-input-mini {
     padding: .5em;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30%;
+    width: 100%;
+    border-bottom: 1px solid #333;
+}
+
+.first__section-content-input-lineal {
+
     box-sizing: border-box;
     box-sizing: border-box;
     height: 30%;
@@ -105,5 +165,47 @@ body {
 .first__section-subvision-doble {
     box-sizing: border-box;
     width: 50%;
-    height:  30px;
+    height:  100%;
+    border: 1px solid #333;
+    float: left;
+    padding: 1em;
 }
+.first__section-subvision-dobles {
+    box-sizing: border-box;
+    width: 50%;
+    height:  100%;
+    border: 1px solid #333;
+    float: left;
+
+}
+
+
+.approbe-salary-incorrect #approbe-salary {
+    border: 1px solid red;
+}
+
+.date-incorrect #date {
+    border: 1px solid red;
+}
+
+.month-salary-incorrect #month-salary {
+    border: 1px solid red;
+}
+
+
+
+.first__section-subvision-doble #licencia_s, #licencia_n, #salud_b, #salud_r, #salud_m, #enfermedad_n, #enfermedad_s, #padres, #familia, #parientes, #solo  {
+
+    width: 5%;
+    text-align: center;
+}
+
+.first__section-subvision-doble #check {
+    width: 5%;
+
+}
+
+   input[type="checkbox"]{
+       cursor: pointer;
+       width: 5%;
+   }
