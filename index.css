@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Tw Cen MT', cursive;
+    background: linear-gradient(#33cc33, #00cc00, #339933);
+    color:white;
 }
 legend {
 	font-size: 40px;
@@ -27,7 +29,7 @@ legend {
     width: 100%;
     height:  300px;
     box-sizing: border-box;
-    border: 1px solid #333;
+
 }
 
 .first__section-subdivision:first-child {
@@ -78,7 +80,7 @@ legend {
 .section__doble {
     height: 50%;
     width: 100%;
-    border: 1px solid #333;
+    border-top: 1px solid #333;
 }
 .section__box-mini {
     height: 140%;
@@ -90,14 +92,14 @@ legend {
 .section__mini {
     height: 75%;
     width: 100%;
-    border: 1px solid #333;
+
     float: bottom;
 }
 
 .section__mini-m {
     height: 24%;
     width: 100%;
-    border: 1px solid #333;
+
     float: bottom;
 }
 
@@ -172,7 +174,7 @@ box-sizing: border-box;
     box-sizing: border-box;
     height: 30%;
     width: 100%;
-    border-bottom: 1px solid #333;
+    border: 1px solid #333;
 }
 
 .first__section-content-input-lineal {
@@ -181,14 +183,14 @@ box-sizing: border-box;
     box-sizing: border-box;
     height: 30%;
     width: 100%;
-    border-bottom: 1px solid #333;
+
 }
 
 .first__section-horizontal_section-m {
     box-sizing: border-box;
     width: 100%;
     height: 30%;
-    border: 1px solid #333;
+
 }
 
 .first__section-subvision-doble {
@@ -210,17 +212,80 @@ box-sizing: border-box;
 
 
 .approbe-salary-incorrect #approbe-salary {
-    border: 1px solid red;
+    border: 2px solid red;
 }
 
 .date-incorrect #date {
-    border: 1px solid red;
+    border: 2px solid red;
 }
 
 .month-salary-incorrect #month-salary {
-    border: 1px solid red;
+    border: 2px solid red;
 }
 
+.date-contratation-incorrect #date-contratation {
+    border: 2px solid red;
+}
+
+.apellido_p-incorrect #apellido_p {
+    border: 2px solid red;
+}
+
+.apellido_m-incorrect #apellido_m {
+    border: 2px solid red;
+}
+.nombre-incorrect #nombre {
+    border: 2px solid red;
+}
+.edad-incorrect #edad {
+    border: 2px solid red;
+}
+
+.telefono-incorrect #telefono{
+    border: 2px solid red;
+}
+
+.fecha-nac-incorrect #fecha-nac{
+    border: 2px solid red;
+}
+
+.estatura-incorrect #estatura{
+    border: 2px solid red;
+}
+.nacionalidad-incorrect #nacionalidad{
+    border: 2px solid red;
+}
+.peso-incorrect #peso{
+    border: 2px solid red;
+}
+
+.domicilio-incorrect #domicilio  {
+    border: 2px solid red;
+}
+.colonia-incorrect #colonia {
+    border: 2px solid red;
+}
+.codigo-p-incorrect #codigo-p{
+    border: 2px solid red;
+}
+.ciudad-incorrect #ciudad{
+    border: 2px solid red;
+}
+.nacimiento-incorrect #nacimiento{
+    border: 2px solid red;
+}
+.clave-unica-incorrect #clave-unica{
+    border: 2px solid red;
+}
+.contribuyentes-incorrect #contribuyentes{
+    border: 2px solid red;
+}
+.seguridad-social-incorrect #seguridad-social{
+    border: 2px solid red;
+}
+.puesto-incorrect #puesto {
+    border: 2px solid red;
+}
 
 
 .first__section-subvision-doble #licencia_s, #licencia_n, #salud_b, #salud_r, #salud_m, #enfermedad_n, #enfermedad_s, #padres, #familia, #parientes, #solo, #soltero, #casado, #otro, #F, #M  {
@@ -238,3 +303,19 @@ box-sizing: border-box;
        cursor: pointer;
        width: 5%;
    }
+
+   input[type="radio"]{
+       cursor: pointer;
+       width: 5%;
+   }
+
+   button{
+    font-size: 20px;
+    padding: 1em;
+    cursor: pointer;
+    padding: 12px 20px;
+}
+
+.boton {
+    text-align: center;
+}
